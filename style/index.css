@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "Vazir";
+    src:
+    local("Vazir") ,
+    url("../font/ttf/Vazirmatn-Bold.ttf") format("truetype"),
+    url("../font/woff2/Vazirmatn-Bold.woff2") format("woff2");
+}
+html{
+    scroll-behavior: smooth;
+}
+::selection{
+    background-color:#0097A7;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vazir";
+}
+body{
+    font-family: "Vazir";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    height: 17%;
+}
+main{
+    margin-top: 70px;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20%;
+    position: fixed;
+}
+.image{
+    margin-top: 50px;
+}
+.name{
+    font-size: 29px;
+    display: flex;
+    gap: 8px;
+}
+.s{
+    color: #0097A7;
+    font-size: 30px;
+}
+h1{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.input{
+    font-family: "Vazir";
+    width: 320px;
+    height: 32px;
+    font-size: 18px;
+    background-color: rgb(220, 221, 221);
+    border: none;
+    border-radius: 14px;
+    box-shadow: 1px 1px 4px rgba(000, 000, 000, 0.4);
+    padding-right: 10px;
+    transition: all 350ms linear;
+}
+.input:focus{
+    border: none;
+    outline-color: #0097A7;
+}
+.link-li{ 
+    font-family:"Vazir";
+    padding: 17px 10px;
+}
+.link-li:active{
+    transition: all 200ms ease;
+    transform: scale(0.95);
+}
+.link-li:hover{
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    background-image:linear-gradient(to right,#0288D1,#0097A7);
+    box-shadow: 1px 1px 2px black;
+    border: none;
+    outline: none;
+}
+.a{
+    text-decoration: none;
+    color: inherit;
+}
+.link-me{
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    gap: 8%;
+}
+.img12{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link_header{
+    direction: rtl;
+    border: 1px solid black;
+    color: black;
+    border-radius: 18px;
+    width: 8.5%;
+    height: 55%;
+    text-align: center;
+    transition: all 300ms ease-in 50ms;
+    cursor: pointer;
+}
+.link_header:hover{
+    background-color: #0097A7 ; 
+    color: white;
+    border: 1px solid #0097A7;
+    outline: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.header-links{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    padding-right: 14px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 68px;
+}
+nav{
+    display: flex;
+    justify-content: start;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+.alink{
+    text-decoration: none;
+}
+.main-image{
+    width: 99vw;
+    height: 58vh;
+    object-fit:contain;
+}
+.products{
+    width: 23%;
+    height: 448px;
+    margin: 10px;
+    text-align: center;
+    font-family:"Vazir";
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0 , 0.4);
+    padding: 0 4px;
+}
+.namep{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 6px;
+}
+.svg2{
+    width: 24px;
+    height: 24px;
+    color: #01579B;
+}
+.container{
+    margin: 40px;
+    display: flex;
+    gap: 10px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-right: 16px;
+}
+.price-a{
+    width:30px;
+    height: 25px;
+    background-color: #B3E5FC;
+    text-align: center;
+    border-radius: 6px;
+    color: #01579B;
+    box-shadow: 1px 1px 3px #0288D1;
+}
+.price-b{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #78909C;
+}
+.second-price{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.price-c{
+    font-size: 18px;
+}
+svg{
+    width: 20px;
+    height: 20px;
+    color: #FF8F00;
+}
+.score{
+    font-size: 15px;
+    color: #78909C;
+}
+.sv{
+    display: flex;
+    gap: 7px;
+}
+h3{
+    font-family:"Vazir";
+}
+.img1{
+    padding-top: 15px;
+    width: 75%;
+    height: 200px;
+    object-fit: contain;
+}
+.name-product{
+    color: red;
+}
+.container2{
+    margin: 40px;
+    display: flex;
+    gap: 10px;
+}
+.container3{
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+}
+.brand-image{
+    width: 100%;
+    max-height:100px;
+    cursor: pointer;
+}
+.link-in-p{
+    display: block;
+    width: 80%;
+    height: 7%;
+    margin-right: 25px;
+    border: 3px solid #64B5F6;
+    background-color: white ; 
+    color:#0288D1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px  rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease 50ms;
+    font-weight:bold;
+}
+.link-in-p:hover{
+    background-color: #1E88E5;
+    color: white;
+    border: 3px solid #1E88E5;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(199, 199, 199);
+    box-shadow: 1px 1px 20px rgb(199, 199, 199);
+}
+.f-item{
+    box-sizing: content-box;
+    max-width: 100%;
+    max-height: 200px;
+    padding: 40px;
+    display: flex;
+    gap: 80px;
+}
+.f-list{
+    color: rgb(75, 75, 75);
+    display: block;
+    gap: 20px;
+}
+li{
+    margin-top: 10px;
+}
+.img-f{
+    width: 20px;
+    height: 30px; 
+}
+.f-be{
+    color: aliceblue;
+    margin-right: 80px;
+}
+.img-ma{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+}
+.f-h{
+    color: black;
+}
+.f-end{
+    font-family: "Vazir";
+    font-size: 17px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}

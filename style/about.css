@@ -1,0 +1,244 @@
+@font-face{
+    font-family: "Vazir";
+    src: url("../font/ttf/Vazirmatn-Bold.ttf") format("truetype");
+}
+*{
+    margin: 0;
+}
+body{
+    font-family: "Vazir";
+    background-image:linear-gradient(to right,#0288D1,#0097A7);
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+.name{
+    font-size: 29px;
+    display: flex;
+    gap: 8px;
+}
+main{
+    padding: 90px;
+}
+.s{
+    color: #0097A7;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.input{
+    width: 320px;
+    height: 32px;
+    font-size: 18px;
+    background-color: rgb(220, 221, 221);
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0px 1px 14px rgba(000, 000, 000, 0.6);
+    padding-right: 10px;
+    transition: all 350ms linear;
+}
+.input:focus{
+    outline-color: #0097A7;
+}
+.link-li{
+    padding: 15px 10px;
+}
+.link-lii{
+    background-image:linear-gradient(to right,#0288D1,#0097A7);
+    font-family:"Vazir";
+    padding: 15px 10px;
+    color: #E0E0E0;
+    border-radius: 5px;
+}
+.link-li:active{
+    transition: all 200ms ease;
+    transform: scale(0.95);
+}
+.link-li:hover{
+    color: #E0E0E0;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background-image:linear-gradient(to right,#0288D1,#0097A7);
+    box-shadow: 1px 1px 2px black;
+}
+nav{
+    display: flex;
+    justify-content: start;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.header-links{
+    position: fixed;
+    top: 70px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.link-me{
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    gap: 8%;
+}
+.img12{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link_header{
+    direction: rtl;
+    border: 1px solid black;
+    color: black;
+    border-radius: 18px;
+    width: 8.5%;
+    height: 55%;
+    text-align: center;
+    transition: all 300ms ease-in 50ms;
+    cursor: pointer;
+}
+.link_header:hover{
+    background-color: #0097A7 ; 
+    color: white;
+    border: 1px solid #0097A7;
+    outline: none;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.alink{
+    text-decoration: none;
+
+}
+.h1{
+    display: flex;
+    padding-top: 28px;
+    gap: 300px;
+    justify-content: space-around;
+}
+span{
+    color: brown;
+}
+.h-img{
+    width: 40px;
+    height: 35px;
+}
+.h-link{
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #E0E0E0;
+    border-radius: 10px;
+    display: block;
+    width: 95px;
+    height: 15px;
+    background-color: brown;
+}
+h2{
+    color: #E0E0E0;
+    text-shadow: 4px 4px 20px #e0e0e0;
+    font-size: 70px;
+}
+h3{
+    color: #E0E0E0;
+    font-size: 23px;
+}
+.main-h{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.main-p{
+    text-align: center;
+}
+.m-link{
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px #E0E0E0;
+    margin:0 auto ;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    background-color: #E0E0E0;
+    color: rgb(148, 8, 8);
+}
+.m-link:hover{
+    border: 1px dashed black;
+}
+.footer{
+    width: 100%;
+    min-height: 280px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 100px;
+}
+.f-item{
+    box-sizing: content-box;
+    max-width: 100%;
+    max-height: 200px;
+    padding: 40px;
+    display: flex;
+    gap: 80px;
+}
+.f-list{
+    color: rgb(75, 75, 75);
+    display: block;
+    gap: 20px;
+}
+li{
+    margin-top: 10px;
+}
+.img-f{
+    width: 20px;
+    height: 30px; 
+}
+.f-be{
+    color: aliceblue;
+    margin-right: 80px;
+}
+.img-ma{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+}
+.f-h{
+    color: black;
+}
+.f-end{
+    font-family: "Vazir";
+    text-align: center;
+}
+.thanks{
+    padding-top: 5px;
+}
+.number{
+    padding: 10px;
+}
+.email{
+    padding: 10px;
+}

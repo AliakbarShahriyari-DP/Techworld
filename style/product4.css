@@ -1,0 +1,235 @@
+@font-face{
+    font-family: "Vazir";
+    src: url("../font/ttf/Vazirmatn-Bold.ttf") format(truetype);
+}
+body{
+    font-family: "Vazir";
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 29px;
+    display: flex;
+    gap: 8px;
+}
+.s{
+    color: #0097A7;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.input{
+    font-family: "Vazir";
+    width: 320px;
+    height: 32px;
+    font-size: 18px;
+    background-color: rgb(220, 221, 221);
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0px 1px 8px rgba(000, 000, 000, 0.6);
+    padding-right: 10px;
+    transition: all 350ms linear;
+}
+.input:focus{
+    outline-color: #0097A7;
+}
+.link-li{
+    padding: 15px 10px;
+}
+.link-lii{
+    background-image:linear-gradient(to right,#0288D1,#0097A7);
+    font-family:"Vazir";
+    padding: 15px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.link-li:active{
+    transition: all 200ms ease;
+    transform: scale(0.95);
+}
+.link-li:hover{
+    color: white;
+    padding: 13.5px 10px;
+    border-radius: 5px;
+    background-image:linear-gradient(to right,#0288D1,#0097A7);
+    box-shadow: 1px 1px 2px black;
+}
+nav{
+    display: flex;
+    justify-content: start;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.header-links{
+    position: fixed;
+    top: 70px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+.link-me{
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    gap: 8%;
+}
+.img12{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link_header{
+    direction: rtl;
+    border: 1px solid black;
+    color: black;
+    border-radius: 18px;
+    width: 8.5%;
+    height: 55%;
+    text-align: center;
+    transition: all 300ms ease-in 50ms;
+    cursor: pointer;
+}
+.link_header:hover{
+    background-color: #0097A7 ; 
+    color: white;
+    border: 1px solid #0097A7;
+    outline: none;
+}
+.ul1{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.ul2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.alink{
+    text-decoration: none;
+
+}
+.header2{
+    width: 100%;
+    height: 70px;
+    padding-top: 60px;
+}
+.item{
+    display: flex;
+    gap: 60px;
+}
+.h1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    display: inline;
+}
+.h-img{
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+.h-im{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.h-img2{
+    width:45px;
+    height: 30px;
+    cursor: pointer;
+}
+.m-img{
+    width: 370px;
+    height: 350px;
+}
+h2{
+    color: brown;
+}
+h4{
+    color: rgb(52, 52, 201);
+    font-family: "Vazir";
+}
+.m-p{
+    display: block;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid black ;
+}
+li{
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+}
+.list{
+    padding-top: 20px;
+}
+.link{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.m-b{
+    font-family: "Vazir";
+    display: block;
+    border-radius: 7px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    width:140px;
+    height: 20px;
+    font-size: 14px;
+    transition: all 250ms ease-in;
+}
+.m-b:hover{
+    transform: translateY(-5px);
+}
+.m-c{
+    font-family:"Vazir";
+    font-size: 15px;
+    display: block;
+    border-radius: 7px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(209, 145, 25);
+    text-align: center;
+    padding: 10px;
+    width:140px;
+    height: 20px;
+    transition: all 250ms ease-in;
+}
+.m-c:hover{
+    transform: translateY(-5px);
+}
+.m-description{
+    color: rgb(63, 62, 62);
+    
+}
